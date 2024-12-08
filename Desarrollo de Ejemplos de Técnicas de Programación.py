@@ -61,10 +61,10 @@ class Baterista(Musico):
     def tocar(self):
         # Polimorfismo: Implementación específica del método tocar
         if self.esta_listo():
-            print(self.nombre, "está marcando el ritmo con un espectacular solo de batería.")
+            print(self.nombre, "está tocando un gran  solo de batería.")
             self.energia -= 15
         else:
-            print(self.nombre, "está demasiado cansado para tocar.")
+            print(self.nombre, "está muy  cansado para tocar.")
 
 
 class Vocalista(Musico):
@@ -80,10 +80,10 @@ class Vocalista(Musico):
     def tocar(self):
         # Polimorfismo: Implementación específica del método tocar
         if self.esta_listo():
-            print(self.nombre, "está deleitando a la audiencia con su increíble voz.")
+            print(self.nombre, "está enloquesiendo a la audiencia con su increíble voz.")
             self.energia -= 5
         else:
-            print(self.nombre, "está demasiado cansado para cantar.")
+            print(self.nombre, "está muy cansado para cantar.")
 
 
 def concierto(banda):
